@@ -56,6 +56,30 @@ public class Binocular
     
     
     }
+    //accessor method for imagestabilization
+    public boolean getImageStabilization()
+    {  return imageStabilization;
+        
+        
+    }
+    //accessor metod for magnification
+    public int getMagnification()
+    {  return this.magnification;
+        
+        
+    }
+    //accessor method for diameter
+    public int getDiameter()
+    {  return this.diameter;
+        
+        
+    }
+    //accessor method for binocuar owner
+    public String getowner()
+    {  return owner;
+        
+        
+    }
     
     
     
