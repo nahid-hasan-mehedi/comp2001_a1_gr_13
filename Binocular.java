@@ -12,6 +12,7 @@
 public class Binocular
 {
     // The fields.
+    
     private String model;
     private int price;
     private int closeFocusDistance;
@@ -79,6 +80,60 @@ public class Binocular
     {  return owner;
         
         
+    }
+    
+    /**
+     * Setter methods for
+     * magification
+     * diameter
+     */
+    public void setMagnification(int magnification)
+    {
+      this.magnification= magnification;
+    }
+    
+    public void setDiameter(int diameter)
+    {
+      this.diameter= diameter;
+    }
+    
+    /**
+     * Mutator method for changing the owner
+     */
+    public void changeOwner(String newOwner)
+    
+    {
+       this.owner = newOwner;
+    }
+    
+    
+    /**
+     * Printing method for printing the binocular info
+     */
+    public void printBinocularInfo()
+    
+    {
+      System.out.println("Binocular model: " + this.model +"\n");
+      System.out.println("Binocular price: " + this.price +"\n");
+      System.out.println("Binocular Magnification: " + this.magnification +"\n");
+      System.out.println("Binocular Diameter: " + this.diameter +"\n");
+      System.out.println("Binocular Image Stabilization: " + this.imageStabilization +"\n");
+      System.out.println("Binocular Owner: " + this.owner);
+    }
+    
+    /**
+     * Printing Author info
+     */
+    public void authorInfo()
+    { System.out.println("Raihan Sikder Ridom : ");
+      System.out.println("setMagnification(int magnification)");
+      System.out.println("setDiameter(int diameter)");
+      System.out.println("changeOwner(String newOwner)");
+      System.out.println("printBinocularInfo()");
+        
+    
+    
+    
     }
     
     
