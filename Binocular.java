@@ -7,7 +7,7 @@
  * @author (Mehedi Hasan Nahid 2)
  * @author (Rahul Sarker  3)
  * 
- * @version (Insert today's date here.)
+ * @version (27th January, 2022)
  */
 public class Binocular
 {
@@ -130,7 +130,12 @@ public class Binocular
       System.out.println("setDiameter(int diameter)");
       System.out.println("changeOwner(String newOwner)");
       System.out.println("printBinocularInfo()");
-        
+      System.out.println("Rahul Sarker : ");
+      System.out.println("getImageStabilization()");
+      System.out.println("getMagnification()");
+      System.out.println("getDiameter()");
+      System.out.println("getOwner()");
+      
     
     
     
