@@ -125,7 +125,12 @@ public class Binocular
      * Printing Author info
      */
     public void authorInfo()
-    { System.out.println("Raihan Sikder Ridom : ");
+    { 
+      System.out.println("Mehedi Hasan Nahid :");
+      System.out.println("getModel()");
+      System.out.println("getPrice()");
+      System.out.println("getCloseFocusDistance()");  
+      System.out.println("Raihan Sikder Ridom : ");
       System.out.println("setMagnification(int magnification)");
       System.out.println("setDiameter(int diameter)");
       System.out.println("changeOwner(String newOwner)");
@@ -135,6 +140,8 @@ public class Binocular
       System.out.println("getMagnification()");
       System.out.println("getDiameter()");
       System.out.println("getOwner()");
+      
+      
       
     
     
